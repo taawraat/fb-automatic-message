@@ -2,10 +2,10 @@
 A python script to send automatic message with selenium.
 
 Requirements:
-1.Python
-2.pip
-3.Selenium
-4.Chrome driver
+    1.Python
+    2.pip
+    3.Selenium
+    4.Chrome driver
 
 
 If you have python and pip installed in your device then follow below, else install python and pip first:
