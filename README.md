@@ -12,15 +12,15 @@ If you have python and pip installed in your device then follow below, else inst
 
 goto this link and download gecko driver for your device
 
-https://github.com/mozilla/geckodriver/releases
+    https://github.com/mozilla/geckodriver/releases
 
 after downloading, extract the geckodriver.exe file and place it to the folder where you have installed python.In my case it's
 
-C:\Users\user\AppData\Local\Programs\Python\Python38
+    C:\Users\user\AppData\Local\Programs\Python\Python38
 
 After placing it,in your terminal,type the following command
 
-pip install selenium
+    pip install selenium
 
 then run the script.
 
