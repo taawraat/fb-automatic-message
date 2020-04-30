@@ -18,15 +18,18 @@ pwd = str(getpass("login password: "))
 message = str(input("type what to send: "))
 
 # open the chrome browser
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 driver.maximize_window()
 
 # goto messenger.com
 driver.get('https://m.me')
+time.sleep(2)
 
 # log in with given info
-driver.find_element_by_name('email').send_keys(number)
-driver.find_element_by_id('pass').send_keys(pwd)
+driver.find_element_by_xpath('//*[@id="email"]').click()
+driver.find_element_by_xpath('//*[@id="email"]').send_keys(number)
+
+driver.find_element_by_id("pass").send_keys(pwd)
 driver.find_element_by_id('loginbutton').click()
 time.sleep(2)
 

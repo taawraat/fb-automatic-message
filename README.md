@@ -3,10 +3,11 @@ A python script to send automatic message with selenium.
 
 Requirements:
     
+    Firefox Browser
     Python
     pip
     Selenium
-    Chrome driver
+    Gecko driver
 
 
 If you have python and pip installed in your device then follow below, else install python and pip first:
