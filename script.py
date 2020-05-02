@@ -34,9 +34,9 @@ driver.find_element_by_id('loginbutton').click()
 time.sleep(3)
 
 # finding the Users given inbox
-driver.find_element_by_css_selector('#js_w > div > div > div._1nq2._7vup > span._5iwm._6-_b._150g._58ah > label > input').click()
-driver.find_element_by_css_selector('#js_w > div > div > div._1nq2._7vup > span._5iwm._6-_b._150g._58ah > label > input').send_keys(message_to)
-driver.find_element_by_css_selector('#js_w > div > div > div._1nq2._7vup > span._5iwm._6-_b._150g._58ah > label > input').send_keys(Keys.ENTER)
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div[3]/div/div[1]/div/div/div[1]/span[1]/label/input').click()
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div[3]/div/div[1]/div/div/div[1]/span[1]/label/input').send_keys(message_to)
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div[1]/div[2]/div[3]/div/div[1]/div/div/div[1]/span[1]/label/input').send_keys(Keys.ENTER)
 time.sleep(2)
 driver.find_element_by_xpath('/html/body/div/div/div/div[1]/div[2]/div[3]/div/div[1]/div/div/div[1]/span[1]/div/div/div[2]/ul/li/a/div/div[2]/div').click()
 time.sleep(2)
